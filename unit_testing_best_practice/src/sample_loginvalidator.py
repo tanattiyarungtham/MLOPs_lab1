@@ -22,7 +22,6 @@ def validate_password(password):
 
 def validate_email(email):
     """Validate email: contains @ and ."""
-    if "@" not in email and "." not in email:
+    if "@" not in email or "." not in email:
         return False
     return True
-

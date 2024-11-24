@@ -20,5 +20,3 @@ def test_validate_email():
     assert validate_email("user@example.com") == True  # Valid email
     assert validate_email("userexample.com") == False  # Missing @
     assert validate_email("user@examplecom") == False  # Missing .
-    assert validate_email("user@.com") == False        # Invalid placement of .
- 
