@@ -2,7 +2,7 @@ import sys
 # Always run from unit_testing_best_practice/test
 sys.path += ['../src'] 
 
-from calculator import *
+from calculator import addition, subtraction, multiplication, division
 
 def test_addition():
     assert addition(1,2) == 3
