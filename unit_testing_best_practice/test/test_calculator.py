@@ -1,6 +1,6 @@
 import sys
 # Always run from unit_testing_best_practice/test
-sys.path += ['..\src']
+sys.path += ['../src'] 
 
 from calculator import *
 
